@@ -18,10 +18,12 @@ print(len(taskList))
 
 
 #Change 987 to 789 without using an inbuilt -method or Assignment
-number=taskList[3]
-#print(number)
-#reverse =number [::-1]
-#print(reverse)
+x=taskList[3]
+y=str (x) #this is called typecasting ie forcing something to be of another
+z=y[::-1]
+a= int(z)
+taskList[3]=a
+print (taskList)
 
 #Change the name “John” to “Jane” .
-
+#impossible because its a tupple hence immutable
