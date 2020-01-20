@@ -1,3 +1,14 @@
+""" types of operators
+.arithmetic + - % )
+.logical (and ,or, not)
+.membership - deals with lists (in,notin)
+.bitwise 
+.identity (is, isnot)
+.assignment
+.comparison
+
+ """
+
 #The value that the operator operates on is called the operand.
 #modulo- remainder of the division of left operand by the right
 a=10

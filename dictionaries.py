@@ -5,7 +5,7 @@ this_dict={ "name":"Misky",
 "workdays":("mon","tue"),
 "parents":{"mother":"Sarah"}}
 
-#key can be unique (wrapped around quotations) and value should be a datatype
+#key can be unique (wrapped around quotations) and value should be a datatype,any datatype
 print(this_dict)
 #checking  type
 print(type(this_dict))
@@ -30,4 +30,16 @@ myinfo={
     "languages":["English","Swahili","Somali","Arabic"]
 }
 }
+
+"""
+methods to manipulate lists
+.append
+.replace
+.pop
+.insert(what you want to include,where)
+.remove
+.count
+.extend
+.sort
+"""
 
