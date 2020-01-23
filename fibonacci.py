@@ -1,3 +1,6 @@
+""" 
+Method 1: when using 'steps' eg. print the first 20 fibonacci numbers
+"""
 # def fibo(n):
 #     x=0
 #     y=1
@@ -15,7 +18,9 @@
 #             y=z
             
 # print(fibo(10)) 
-
+"""
+Method 2: when given range eg. print fibonacci numbers from 0 to 50
+"""
 x=0
 y=1
 z=x+y
